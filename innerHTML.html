@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo1"></p>
+<script>
+    document.getElementById("demo1").innerHTML ="Hello JS";
+</script>
+
+<script>
+    document.write("hey JS");
+</script>
+
+<script>
+    window.alert("Welcome back!!!");
+</script>
+
+<p id="demo2"></p>
+<script>
+    var x=3;
+    var y=4;
+    var z=x*y;
+    document.getElementById("demo2").innerHTML ="The value of z is:"+ z;
+</script>
+
+<p id="demo3"></p>
+<script>
+    var x=3;
+    var y=4;
+    var z= x<y;
+    z+=" x \< y";
+    document.getElementById("demo3").innerHTML = z;
+</script>
+
+<p id="demo4"></p>
+<script>
+    var x=[1,2,3];
+    var y=[3,4];
+    var z= x[0]-y[1];
+    document.getElementById("demo4").innerHTML = z;
+</script>
+
+<p id="demo5"></p>
+<script>
+    var n1=1;
+    var n2=2;
+    var condition=["smaller","bigger"];
+    if(n1<n2){
+        document.getElementById("demo5").innerHTML ="n1 is "+ condition[0];
+    }
+    else if(n1>n2){
+        document.getElementById("demo5").innerHTML = "n1 is "+ condition[1];
+    }
+
+</script>
+
+</body>
+</html> 
+
+
+
+
